@@ -5,10 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:pixelsize=16:antialias=true:autohint=true";
+static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = {
-	"JoyPixels:pixelsize=14:antialias=true:autohint=true",
-	"adobe-source-han-serif-otc-fonts=14:anitalias=true:autohint=true"
+	"JoyPixels:pixelsize=12:antialias=true:autohint=true",
+	"adobe-source-han-serif-otc-fonts=12:anitalias=true:autohint=true"
 };
 
 static int borderpx = 2;
