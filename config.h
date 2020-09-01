@@ -7,8 +7,10 @@
  */
 static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = {
-	"JoyPixels:pixelsize=12:antialias=true:autohint=true",
-	"adobe-source-han-serif-otc-fonts=12:anitalias=true:autohint=true"
+	"Inconsolata Nerd Font Mono:size=11:style=regular:antialias=true:autohint=true",
+	"Inconsolata For Powerline:size=11:style=medium:antialias=true:autohint=true",
+	"JoyPixels:pixelsize=11:style=regular:antialias=true:autohint=true",
+	"Source Han Serif:pixelsize=11:style=regular:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
