@@ -7,10 +7,9 @@
  */
 static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = {
-	"Inconsolata Nerd Font Mono:size=11:style=regular:antialias=true:autohint=true",
-	"Inconsolata For Powerline:size=11:style=medium:antialias=true:autohint=true",
-	"JoyPixels:pixelsize=11:style=regular:antialias=true:autohint=true",
-	"Source Han Serif:pixelsize=11:style=regular:antialias=true:autohint=true"
+	"Inconsolata-g:size=11:style=regular:antialias=true:autohint=true",
+	"Noto Fonts Emoji:pixelsize=11:style=regular:antialias=true:autohint=true",
+	"Noto Fonts CJK:pixelsize=11:style=regular:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
@@ -196,7 +195,7 @@ static unsigned int defaultattr = 11;
  * Note that if you want to use ShiftMask with selmasks, set this to an other
  * modifier, set to 0 to not use it.
  */
-static uint forcemousemod = ShiftMask;
+static int forcemousemod = ShiftMask;
 
 /*
  * Xresources preferences to load at startup
@@ -560,3 +559,4 @@ static char ascii_printable[] =
 	" !\"#$%&'()*+,-./0123456789:;<=>?"
 	"@ABCDEFGHIJKLMNOPQRSTUVWXYZØÆÅ[\\]^_"
 	"`abcdefghijklmnopqrstuvwxyzøæå{|}~";
+
