@@ -12,7 +12,7 @@ static char *font2[] = {
 	"Noto Fonts CJK:pixelsize=11:style=regular:antialias=true:autohint=true"
 };
 
-static int borderpx = 2;
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -174,8 +174,8 @@ static Rune stcursor = 0x2603; /* snowman (U+2603) */
  * Default columns and rows numbers
  */
 
-static unsigned int cols = 80;
-static unsigned int rows = 24;
+static unsigned int cols = 123;
+static unsigned int rows = 31;
 
 /*
  * Default colour and shape of the mouse cursor
