@@ -10,6 +10,7 @@ static char *font2[] = {
 	"Inconsolata-g:size=11:style=regular:antialias=true:autohint=true",
 	"Noto Color Emoji:pixelsize=11:style=regular:antialias=true:autohint=true"
 	"Noto Fonts CJK:pixelsize=11:style=regular:antialias=true:autohint=true"
+	"Nerd Font Complete:pixelsize=13:style=regular:antialias=true:autohint=true"
 };
 
 static int borderpx = 0;
@@ -242,8 +243,8 @@ ResourcePref resources[] = {
  */
 static MouseShortcut mshortcuts[] = {
 	/* mask                 button          function        argument       release */
-	{ Button4,              XK_NO_MOD,      "\031" },
-	{ Button5,              XK_NO_MOD,      "\005" },
+/*	{ Button4,              XK_NO_MOD,      "\031" },*/
+/*	{ Button5,              XK_NO_MOD,      "\005" },*/
 	{ Button4,              XK_NO_MOD,      kscrollup,      {.i =  1} },
 	{ Button5,              XK_NO_MOD,      kscrolldown,    {.i =  1} },
 	{ Button4,              TERMMOD,        zoom,           {.f =  +1} },
