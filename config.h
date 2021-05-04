@@ -7,10 +7,10 @@
  */
 static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = {
-	"Inconsolata-g:size=11:style=regular:antialias=true:autohint=true",
+	"InconsolataGo Nerd Font Complete Mono:size=11:style=regular:antialias=true:autohint=true",
 	"Noto Color Emoji:pixelsize=11:style=regular:antialias=true:autohint=true"
 	"Noto Fonts CJK:pixelsize=11:style=regular:antialias=true:autohint=true"
-	"Nerd Font Complete:pixelsize=13:style=regular:antialias=true:autohint=true"
+	"Nerd Font Complete:pixelsize=14:style=regular:antialias=true:autohint=true"
 };
 
 static int borderpx = 0;
